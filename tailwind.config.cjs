@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#4285f4",
+        secondary: "#0f9d58",
+      },
+      fontFamily: {
+        google: ["sans-serif"],
+      },
+    },
   },
   screens: {
     xs: "480px",
