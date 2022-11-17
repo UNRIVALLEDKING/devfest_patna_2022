@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "google";
+  src: url("./assets/fonts/GoogleSansRegular.ttf");
+  font-weight: 400;
+}
+
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "google";
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -20,15 +26,18 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
