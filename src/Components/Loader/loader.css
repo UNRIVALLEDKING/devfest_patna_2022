@@ -1,0 +1,13 @@
+.loader-animate {
+  animation: fadeOut 2s ease 1;
+  animation-delay: 4.5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
