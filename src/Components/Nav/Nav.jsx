@@ -47,6 +47,7 @@ export default function Nav() {
           ))}
         </ul>
 
+        {/* Responsive Nav for Mobiles */}
         <div
           onClick={() => setToggle(!toggle)}
           className="lg:hidden flex fles-1 justify-end items-center"

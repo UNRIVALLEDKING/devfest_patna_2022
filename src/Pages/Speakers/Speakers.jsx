@@ -3,7 +3,7 @@ import "./speakers.css";
 
 export default function Speakers() {
   return (
-    <div style={{ height: "1000px" }} id="speakers">
+    <div id="speakers" className="pt-12">
       <h1 className="text-primary">Speakers</h1>
     </div>
   );

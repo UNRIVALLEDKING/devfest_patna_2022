@@ -2,10 +2,14 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Loader from "./Components/Loader/Loader";
 import Nav from "./Components/Nav/Nav";
+import Faq from "./Pages/Faq/Faq";
 import Home from "./Pages/Home/Home";
+import JoinUs from "./Pages/JoinUs/JoinUs";
 import Partners from "./Pages/Partners/Partners";
 import Schedule from "./Pages/Schedule/Schedule";
 import Speakers from "./Pages/Speakers/Speakers";
+import Team from "./Pages/Team/Team";
+import WhyDevFest from "./Pages/WhyDevFest/WhyDevFest";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -26,9 +30,13 @@ function App() {
         <>
           <Nav />
           <Home />
+          <WhyDevFest />
           <Speakers />
           <Partners />
           <Schedule />
+          <Faq />
+          <Team />
+          <JoinUs />
         </>
       )}
     </>
