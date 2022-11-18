@@ -8,7 +8,7 @@ module.exports = {
         secondary: "#0f9d58",
       },
       fontFamily: {
-        google: ["sans-serif"],
+        google: ["google"],
       },
     },
   },
