@@ -40,6 +40,7 @@ export default function Nav() {
                   id === 0 ? "bg-primary" : ""
                 } px-4 py-2 rounded-full hover:bg-secondary`}
                 href={item.url}
+                target={item.title === "Register Now" ? "_blank" : "_self"}
               >
                 {item.title}
               </a>
@@ -70,6 +71,7 @@ export default function Nav() {
                       id === 0 ? "bg-primary" : ""
                     } px-4 py-2 rounded-full hover:bg-secondary`}
                     href={item.url}
+                    target={item.title === "Register Now" ? "_blank" : "_self"}
                   >
                     {item.title}
                   </a>
