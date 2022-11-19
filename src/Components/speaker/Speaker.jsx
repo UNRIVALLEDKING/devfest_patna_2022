@@ -1,44 +1,48 @@
 import React from "react";
-import Data from "./Speaker.json";
-
+import { SpeakerList } from "./SpeakerList";
 
 function Speaker(props) {
+  console.log(SpeakerList);
   return (
     <>
-      {Data.map((item) => {
+      {SpeakerList.map((item, id) => {
         return (
-          <div class="w-full mt-10 md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-20 lg:pl-2 lg:pr-2">
-            <div class="bg-zinc-900 rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
-              <figure class="mb-2 flex justify-center -mt-16 md:justify-center">
+          <div
+            key={id}
+            className="w-full mt-10 md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-20 lg:pl-2 lg:pr-2"
+          >
+            <div className="bg-zinc-900 rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+              <figure className="mb-2 flex justify-center -mt-16 md:justify-center">
                 <img
-                  class="object-cover w-40  h-40 border-2 border-green-500 rounded-full"
+                  className="object-cover w-40  h-40 border-2 border-secondary rounded-full"
                   alt="Testimonial avatar"
-                  src={`src/assets/img/speaker/${item.image}`}
+                  src={item.image}
                 />
               </figure>
-              <div class="rounded-lg p-4  flex flex-col">
+              <div className="rounded-lg p-4  flex flex-col">
                 <div>
-                  <h5 class="text-white text-2xl font-bold leading-none">
+                  <h5 className="text-white text-2xl font-bold leading-none">
                     Pankaj shrivastava
                   </h5>
-                  <span class="text-xs text-gray-400 leading-none">
+                  <span className="text-xs text-gray-400 leading-none">
                     Full stack developer || wipro
                   </span>
                 </div>
 
-                <div class="flex justify-center mt-5">
-                    
+                <div className="flex justify-center mt-5">
                   <button
                     type="button"
-                    onClick={() => {window.open(item.githubUrl, '_blank')?.focus()}}
+                    onClick={() => {
+                      window.open(item.githubUrl, "_blank")?.focus();
+                    }}
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    class="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 496 512"
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                     >
                       <path
                         fill="currentColor"
@@ -48,15 +52,17 @@ function Speaker(props) {
                   </button>
                   <button
                     type="button"
-                    onClick={() => {window.open(item.linkedinUrl, '_blank')?.focus()}}
+                    onClick={() => {
+                      window.open(item.linkedinUrl, "_blank")?.focus();
+                    }}
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    class="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 448 512"
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                     >
                       <path
                         fill="currentColor"
@@ -66,15 +72,17 @@ function Speaker(props) {
                   </button>
                   <button
                     type="button"
-                    onClick={() => {window.open(item.twitterUrl, '_blank')?.focus()}}
+                    onClick={() => {
+                      window.open(item.twitterUrl, "_blank")?.focus();
+                    }}
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    class="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                     >
                       <path
                         fill="currentColor"
