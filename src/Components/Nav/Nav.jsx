@@ -6,7 +6,7 @@ import menu from "../../assets/menu.svg";
 
 export default function Nav() {
   const [scroll, setScroll] = useState(false);
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -16,7 +16,7 @@ export default function Nav() {
   return (
     <>
       <div
-        className={`w-full fixed top-0 flex items-center justify-between p-2 border-b-[1px] ${
+        className={`w-full fixed top-0 flex items-center justify-between p-2 border-b-[1px] z-50 ${
           scroll
             ? "bg-[rgba(0,0,0,0.6)] backdrop-blur-[4px]"
             : "bg-transparent backdrop-blur-0"
@@ -52,7 +52,7 @@ export default function Nav() {
           onClick={() => setToggle(!toggle)}
           className="lg:hidden flex fles-1 justify-end items-center"
         >
-          <img src={toggle ? menu : close} className="animate-bounce" />
+          <img src={toggle ? menu : close} className="animate-bounce w-8" />
           <div
             className={`fixed right-1 top-[3rem] p-2 rounded bg-[rgba(0,0,0,0.6)] backdrop-blur-[4px] z-50 ${
               toggle ? "hidden" : "flex"

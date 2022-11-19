@@ -42,9 +42,9 @@ a {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
+  max-width: 100%;
   min-height: 100vh;
 }
 
