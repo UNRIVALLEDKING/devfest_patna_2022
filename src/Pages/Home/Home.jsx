@@ -17,6 +17,7 @@ export default function Home() {
           background: `url(${DevFestCrowd})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
         className={`h-[100vh] absolute w-full top-0 left-0 -z-10 blur-[1px]`}
       ></div>
