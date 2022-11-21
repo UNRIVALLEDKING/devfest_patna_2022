@@ -7,7 +7,7 @@ export default function Schedule() {
     <div id="schedule" className="pt-12">
       <h1 className="text-primary">Schedule</h1>
       {Sechedule.map((item) => (
-        <div key={item.id} className="grid mx-10 grid-cols-12 mt-3">
+        <div key={item.id} className="grid mx-10 grid-cols-12 mt-3 px-10">
           <div className="col-span-2  my-3 items-center  py-5 text-center">
             {item.started}
           </div>
