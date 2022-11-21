@@ -1,10 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import "./schedule.css";
+import { Sechedule } from "./SecheduleData";
 
 export default function Schedule() {
   return (
     <div id="schedule" className="pt-12">
       <h1 className="text-primary">Schedule</h1>
+      {Sechedule.map((item) => (
+        <div key={item.id} className="grid mx-10 grid-cols-12 mt-3">
+          <div className="col-span-2  my-3 items-center  py-5 text-center">
+            {item.started}
+          </div>
+          <div className="col-span-10 px-5 py-6 align-middle border-secondary border-l-[5px] bg-white text-black rounded">
+            <div className="flex items-center">
+              <div className="mx-3 ">
+                {item.title.includes("Lunch") ? (
+                  <div className="w-10 h-10 p-2 bg-blue-500 rounded text-center">
+                    🍕
+                  </div>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="white"
+                    className="w-10 h-10 p-2 bg-blue-500 rounded"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                    ></path>
+                  </svg>
+                )}
+              </div>
+              <div>
+                <h5>{item.title} </h5>
+                <p className="text-xs">{item.finished} </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
