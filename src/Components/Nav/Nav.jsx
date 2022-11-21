@@ -4,7 +4,7 @@ import DevFest from "../../assets/DevFest.svg";
 import close from "../../assets/close.svg";
 import menu from "../../assets/menu.svg";
 
-export default function Nav() {
+export default function Nav({ setSchedule, schedule }) {
   const [scroll, setScroll] = useState(false);
   const [toggle, setToggle] = useState(true);
 
@@ -40,6 +40,7 @@ export default function Nav() {
                   id === 0 ? "bg-primary" : ""
                 } px-4 py-2 rounded-full hover:bg-secondary`}
                 href={item.url}
+                onClick={item.func ? () => setSchedule(!schedule) : 2 + 2}
                 target={item.title === "Register Now" ? "_blank" : "_self"}
               >
                 {item.title}
@@ -71,6 +72,7 @@ export default function Nav() {
                       id === 0 ? "bg-primary" : ""
                     } px-4 py-2 rounded-full hover:bg-secondary`}
                     href={item.url}
+                    onClick={item.func ? () => setSchedule(!schedule) : 2 + 2}
                     target={item.title === "Register Now" ? "_blank" : "_self"}
                   >
                     {item.title}

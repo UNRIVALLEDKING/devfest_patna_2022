@@ -9,7 +9,7 @@ export default function Team() {
     <div id="team" className="pt-12">
       <h2 className="text-primary text-5xl text-center">Meet Our Team</h2>
       <div className="flex items-center w-screen mt-7">
-        <div className="container px-8 grid grid-cols-2 lg:grid-cols-6 ml-auto mr-auto gap-8 items-start">
+        <div className="container px-8 grid xxs:grid-cols-1 xs:grid-cols-2 ss:grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 ml-auto mr-auto gap-8 items-start">
           {TeamList.map((item, id) => (
             <div key={id} className="flex flex-col justify-center items-center">
               <div className="relative flex justify-center items-center ">

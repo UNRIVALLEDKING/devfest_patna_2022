@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "./schedule.css";
 import { Sechedule } from "./SecheduleData";
 
-export default function Schedule() {
+export default function Schedule({ schedule }) {
   return (
-    <div id="schedule" className="pt-12">
-      <h1 className="text-primary">Schedule</h1>
+    <div id="agenda" className="pt-12">
+      <div className="flex flex-col lg:flex-row justify-evenly items-center">
+        <h1 className="text-primary">Schedule</h1>
+      </div>
+
       {Sechedule.map((item) => (
         <div
           key={item.id}

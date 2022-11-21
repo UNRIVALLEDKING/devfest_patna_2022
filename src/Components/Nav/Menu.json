@@ -16,8 +16,9 @@
       "url": "#partners"
     },
     {
-      "title": "Schedule",
-      "url": "#schedule"
+      "title": "Agenda",
+      "url": "#agenda",
+      "func":true      
     },
     {
       "title":"Team",

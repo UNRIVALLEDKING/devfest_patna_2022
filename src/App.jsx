@@ -12,6 +12,9 @@ import WhyDevFest from "./Pages/WhyDevFest/WhyDevFest";
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [schedule, setSchedule] = useState(false);
+
+  console.log(schedule);
 
   useEffect(() => {
     setTimeout(() => {
@@ -27,12 +30,18 @@ function App() {
         </>
       ) : (
         <>
-          <Nav />
+          <Nav setSchedule={setSchedule} schedule={schedule} />
           <Home />
           <WhyDevFest />
           <Speakers />
           <Partners />
-          <Schedule />
+          {schedule ? (
+            <>
+              <Schedule schedule={schedule} />
+            </>
+          ) : (
+            <></>
+          )}
           <Team />
           <Faq />
         </>
