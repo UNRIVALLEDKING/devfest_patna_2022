@@ -3,6 +3,7 @@ import { Aditya } from "../../assets/img/team";
 const TeamList = [
   {
     name: "Aditya Kumar",
+    desc: "Event Lead",
     image: Aditya,
     github: "https://github.com/UNRIVALLEDKING",
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
@@ -10,6 +11,7 @@ const TeamList = [
   },
   {
     name: "Aditya Kumar",
+    desc: "Event Lead",
     image: Aditya,
     github: "https://github.com/UNRIVALLEDKING",
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
@@ -17,6 +19,7 @@ const TeamList = [
   },
   {
     name: "Aditya Kumar",
+    desc: "Event Lead",
     image: Aditya,
     github: "https://github.com/UNRIVALLEDKING",
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
@@ -24,6 +27,7 @@ const TeamList = [
   },
   {
     name: "Aditya Kumar",
+    desc: "Event Lead",
     image: Aditya,
     github: "https://github.com/UNRIVALLEDKING",
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
@@ -31,6 +35,7 @@ const TeamList = [
   },
   {
     name: "Aditya Kumar",
+    desc: "Event Lead",
     image: Aditya,
     github: "https://github.com/UNRIVALLEDKING",
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
@@ -38,6 +43,7 @@ const TeamList = [
   },
   {
     name: "Aditya Kumar",
+    desc: "Event Lead",
     image: Aditya,
     github: "https://github.com/UNRIVALLEDKING",
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
@@ -45,6 +51,7 @@ const TeamList = [
   },
   {
     name: "Aditya Kumar",
+    desc: "Event Lead",
     image: Aditya,
     github: "https://github.com/UNRIVALLEDKING",
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
