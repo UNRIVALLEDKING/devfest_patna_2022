@@ -43,7 +43,7 @@ export default function Home() {
           </span>
         </div>
         <div className="lg:text-4xl">
-          <h2>Patna's most awaited developer conference</h2>
+          <h2>Bihar's most awaited developer conference</h2>
           <div className="flex items-center justify-center text-[14px] lg:text-2xl">
             <img src={Calender} alt="date" className="w-[30px] lg:w-[50px]" />
             <p>18th Dec 2022</p>

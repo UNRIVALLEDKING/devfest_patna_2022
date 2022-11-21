@@ -2,7 +2,6 @@ import React from "react";
 import { SpeakerList } from "./SpeakerList";
 
 function Speaker(props) {
-  console.log(SpeakerList);
   return (
     <>
       {SpeakerList.map((item, id) => {
