@@ -4,7 +4,6 @@ import Loader from "./Components/Loader/Loader";
 import Nav from "./Components/Nav/Nav";
 import Faq from "./Pages/Faq/Faq";
 import Home from "./Pages/Home/Home";
-import JoinUs from "./Pages/JoinUs/JoinUs";
 import Partners from "./Pages/Partners/Partners";
 import Schedule from "./Pages/Schedule/Schedule";
 import Speakers from "./Pages/Speakers/Speakers";
@@ -34,9 +33,8 @@ function App() {
           <Speakers />
           <Partners />
           <Schedule />
-          <Faq />
           <Team />
-          <JoinUs />
+          <Faq />
         </>
       )}
     </>

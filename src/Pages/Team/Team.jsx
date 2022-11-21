@@ -12,7 +12,7 @@ export default function Team() {
         <div className="container px-8 grid grid-cols-2 lg:grid-cols-6 ml-auto mr-auto gap-8 items-start">
           {TeamList.map((item, id) => (
             <div key={id} className="flex flex-col justify-center items-center">
-              <div className="relative flex justify-center items-center">
+              <div className="relative flex justify-center items-center ">
                 <div className="absolute w-[104%] aspect-square bg-primary -z-10 rounded-full -translate-x-1 -translate-y-1 overflow-hidden"></div>
                 <div className="absolute w-[104%] aspect-square bg-secondary -z-[2] rounded-full translate-x-1 translate-y-1 overflow-hidden"></div>
                 <img
