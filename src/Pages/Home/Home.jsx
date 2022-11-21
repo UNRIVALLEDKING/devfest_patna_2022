@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center text-[14px] lg:text-2xl">
             <img src={Map} alt="location" className="w-[30px] lg:w-[50px]" />
-            <p>C.V Raman Hall, NIT Patna</p>
+            <p>C.V. Raman Hall, NIT Patna</p>
           </div>
           <a
             className="text-white"
