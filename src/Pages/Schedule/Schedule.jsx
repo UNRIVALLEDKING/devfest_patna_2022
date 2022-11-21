@@ -7,8 +7,11 @@ export default function Schedule() {
     <div id="schedule" className="pt-12">
       <h1 className="text-primary">Schedule</h1>
       {Sechedule.map((item) => (
-        <div key={item.id} className="grid mx-10 grid-cols-12 mt-3 px-10">
-          <div className="col-span-2  my-3 items-center  py-5 text-center">
+        <div
+          key={item.id}
+          className="grid mx-10 grid-cols-12 mt-3 px-0 lg:px-10 xl:px-40"
+        >
+          <div className="col-span-2 my-3 items-center  py-5 pr-5 lg:pr-0 text-center">
             {item.started}
           </div>
           <div className="col-span-10 px-5 py-6 align-middle border-secondary border-l-[5px] bg-white text-black rounded">
@@ -36,8 +39,8 @@ export default function Schedule() {
                 )}
               </div>
               <div>
-                <h5>{item.title} </h5>
-                <p className="text-xs">{item.finished} </p>
+                <h3 className="lg:text-2xl">{item.title} </h3>
+                <p className="text-sm">{item.finished} </p>
               </div>
             </div>
           </div>
