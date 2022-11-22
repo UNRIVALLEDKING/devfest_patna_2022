@@ -6,7 +6,7 @@ export default function Schedule({ schedule }) {
   return (
     <div id="agenda" className="pt-12">
       <div className="flex flex-col lg:flex-row justify-evenly items-center">
-        <h1 className="text-primary">Schedule</h1>
+        <h1 className="text-white mt-4">Agenda</h1>
       </div>
 
       {Sechedule.map((item) => (

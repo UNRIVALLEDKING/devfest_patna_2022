@@ -1,5 +1,10 @@
 export const Sechedule = [
   {
+    title: "Morning Tea",
+    started: "8:30",
+    finished: "9:00",
+  },
+  {
     title: "Speaker1",
     started: "9:00",
     finished: "9:30",
@@ -26,8 +31,8 @@ export const Sechedule = [
   },
   {
     title: "Lunch & Stall visit ",
-    started: "11:55",
-    finished: "11:55 -13:10",
+    started: "01:00",
+    finished: "1:45",
   },
   {
     title: "Speaker6",

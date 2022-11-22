@@ -5,13 +5,13 @@ export default function Faq() {
   return (
     <div id="faq" className="lg:container mx-auto mb-5 pt-12">
       <div className="flex flex-col lg:flex-row justify-evenly items-center">
-        <h1 className="text-primary">FAQ</h1>
+        <h1>FAQ</h1>
       </div>
       <div className="space-y-4">
         {FaqJson.map((item, id) => (
           <details
             key={id}
-            className="group border-x-4 rounded-sm border-l-secondary border-r-primary p-6"
+            className="group border-x-4 rounded-sm border-l-secondary border-r-primary px-6"
             open={id === 0 ? true : false}
           >
             <summary className="flex cursor-pointer items-center justify-between">
@@ -33,7 +33,7 @@ export default function Faq() {
                 </svg>
               </span>
             </summary>
-            <p className="mt-4 leading-relaxed text-white">{item.answer}</p>
+            <p className="leading-relaxed text-white mt-1">{item.answer}</p>
           </details>
         ))}
       </div>

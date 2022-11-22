@@ -7,7 +7,7 @@ import linkedin from "../../assets/Icons/linkedin.svg";
 export default function Team() {
   return (
     <div id="team" className="pt-12">
-      <h2 className="text-primary text-5xl text-center">Meet Our Team</h2>
+      <h2 className="text-5xl text-center">Meet Our Team</h2>
       <div className="flex items-center w-screen mt-7">
         <div className="container px-8 grid xxs:grid-cols-1 xs:grid-cols-2 ss:grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 ml-auto mr-auto gap-8 items-start">
           {TeamList.map((item, id) => (
@@ -26,17 +26,21 @@ export default function Team() {
                 <h4 className="text-gray-400">{item.desc}</h4>
               </div>
               <div className="flex flex-row justify-evenly w-full mt-2">
-                <a href={item.github} target="_blank" rel="noreferrer">
-                  <img
-                    src={git}
-                    alt="twitter"
-                    className="w-6 hover:-translate-y-1 transition-all ease-in-out"
-                  />
-                </a>
+                {item.github ? (
+                  <a href={item.github} target="_blank" rel="noreferrer">
+                    <img
+                      src={git}
+                      alt="github"
+                      className="w-6 hover:-translate-y-1 transition-all ease-in-out"
+                    />
+                  </a>
+                ) : (
+                  <></>
+                )}
                 <a href={item.linkedin} target="_blank" rel="noreferrer">
                   <img
                     src={linkedin}
-                    alt="twitter"
+                    alt="linkedin"
                     className="w-6 hover:-translate-y-1 transition-all ease-in-out"
                   />
                 </a>

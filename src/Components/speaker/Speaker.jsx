@@ -21,31 +21,17 @@ function Speaker(props) {
                   src={item.image}
                 />
               </figure>
-              <div className="rounded-lg p-4  flex flex-col">
+              <div className="rounded-lg p-4 flex flex-col">
                 <div>
-                  <h5 className="text-white text-2xl font-bold leading-none">
-                    Pankaj shrivastava
+                  <h5 className="text-white text-3xl font-bold leading-none">
+                    {item.name}
                   </h5>
-                  <span className="text-xs text-gray-400 leading-none">
-                    Full stack developer || wipro
+                  <span className="text-xl text-gray-400 leading-none">
+                    {item.bio}
                   </span>
                 </div>
 
                 <div className="flex justify-center mt-5">
-                  <button
-                    type="button"
-                    data-mdb-ripple="true"
-                    data-mdb-ripple-color="light"
-                    className="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    <a href={item.githubUrl} target="_blank" rel="noreferrer">
-                      <img
-                        src={git}
-                        alt="github"
-                        className="w-6 hover:-translate-y-1 transition-all ease-in-out"
-                      />
-                    </a>
-                  </button>
                   <button
                     type="button"
                     data-mdb-ripple="true"
