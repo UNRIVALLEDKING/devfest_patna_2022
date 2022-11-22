@@ -1,32 +1,31 @@
 [
     {
       "title": "Home",
-      "url": "#home"
+      "url": "/#home"
     },
     {
     "title":"Why DevFest",
-    "url":"#why-DevFest"
+    "url":"/#why-DevFest"
     },
     {
       "title": "Speakers",
-      "url": "#speakers"
+      "url": "/#speakers"
     },
     {
       "title": "Partners",
-      "url": "#partners"
+      "url": "/#partners"
     },
     {
       "title": "Agenda",
-      "url": "#agenda",
-      "func":true      
+      "url": "/agenda"
     },
     {
       "title":"Team",
-      "url":"#team"
+      "url":"/#team"
     },
     {
       "title":"FAQ",
-      "url":"#faq"
+      "url":"/#faq"
     },
     {
       "title":"Register Now",
