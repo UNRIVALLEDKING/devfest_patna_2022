@@ -3,7 +3,7 @@ import FaqJson from "./FAQ.json";
 
 export default function Faq() {
   return (
-    <div id="faq" className="container mx-auto mb-5 pt-12">
+    <div id="faq" className="lg:container mx-auto mb-5 pt-12">
       <div className="flex flex-col lg:flex-row justify-evenly items-center">
         <h1 className="text-primary">FAQ</h1>
       </div>
@@ -18,7 +18,7 @@ export default function Faq() {
               <h2 className="text-lg font-medium text-white">
                 {item.question}
               </h2>
-              <span className="ml-1.5 flex-shrink-0 rounded-full bg-transparent p-1.5 text-white sm:p-3">
+              <span className="ml-1.5 flex-shrink-0 rounded-full bg-transparent p-1.5 text-primary sm:p-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45"
