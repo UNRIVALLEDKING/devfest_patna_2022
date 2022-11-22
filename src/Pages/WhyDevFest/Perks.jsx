@@ -3,8 +3,8 @@ import React from 'react'
 const Perks = () => {
   return (
     <div>
-        <div className="place-items-center">
-        What's there for you?
+        <div className="grid place-items-center text-4xl text-secondary">
+        What's there for you? 👀
       </div>
     </div>
   )
