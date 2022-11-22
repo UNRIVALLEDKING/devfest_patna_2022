@@ -3,6 +3,7 @@ import Menu from "./Menu.json";
 import DevFest from "../../assets/DevFest.svg";
 import close from "../../assets/close.svg";
 import menu from "../../assets/menu.svg";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Nav() {
   const [scroll, setScroll] = useState(false);
@@ -35,17 +36,32 @@ export default function Nav() {
         <ul className="hidden lg:flex justify-evenly">
           {Menu.map((item, id) => (
             <li className="mx-1" key={id}>
-              <a
+              <Link
+                onClick={() => {
+                  if (!item.url.includes("#")) {
+                    window.scrollTo(0, 0);
+                  }
+                }}
+                to={item.url}
+                smooth
                 className={`min-w-full text-white whitespace-nowrap ${
                   id === 0 ? "bg-primary" : ""
                 } px-4 py-2 rounded-full hover:bg-secondary`}
-                href={item.url}
-                target={item.title === "Register Now" ? "_blank" : "_self"}
               >
                 {item.title}
-              </a>
+              </Link>
             </li>
           ))}
+          <li>
+            <a
+              href="https://forms.gle/XDQkHB8hfjjvtR8u5"
+              className={`min-w-full text-white whitespace-nowrap px-4 py-2 rounded-full hover:bg-secondary`}
+              target="_blank"
+              rel="norefferer"
+            >
+              Register Now
+            </a>
+          </li>
         </ul>
 
         {/* Responsive Nav for Mobiles */}
@@ -66,17 +82,32 @@ export default function Nav() {
             >
               {Menu.map((item, id) => (
                 <li className="mx-1 my-2" key={id}>
-                  <a
+                  <Link
+                    onClick={() => {
+                      if (!item.url.includes("#")) {
+                        window.scrollTo(0, 0);
+                      }
+                    }}
+                    to={item.url}
+                    smooth
                     className={`min-w-full text-white whitespace-nowrap ${
                       id === 0 ? "bg-primary" : ""
                     } px-4 py-2 rounded-full hover:bg-secondary`}
-                    href={item.url}
-                    target={item.title === "Register Now" ? "_blank" : "_self"}
                   >
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
+              <li>
+                <a
+                  href="https://forms.gle/XDQkHB8hfjjvtR8u5"
+                  className={`min-w-full text-white whitespace-nowrap px-4 py-2 rounded-full hover:bg-secondary`}
+                  target="_blank"
+                  rel="norefferer"
+                >
+                  Register Now
+                </a>
+              </li>
             </ul>
           </div>
         </div>

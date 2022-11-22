@@ -6,6 +6,7 @@
   font-family: "google";
   src: url("./assets/fonts/GoogleSansRegular.ttf");
   font-weight: 400;
+  font-display: block;
 }
 
 :root {
@@ -63,8 +64,4 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
