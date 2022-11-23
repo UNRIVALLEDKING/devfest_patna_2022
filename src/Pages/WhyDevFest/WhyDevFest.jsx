@@ -18,24 +18,24 @@ export default function WhyDevFest() {
         <div
           className="flex justify-center p-3 my-4 mx-2"
         >
-          <img src={dvbaroda} alt="" className="rounded object-cover"/>
+          <img src={dvbaroda} alt="" className="rounded object-cover" />
         </div>
         <div
           class="flex place-items-center justify-center p-3 my-4  mx-2 text-lg"
         >
           <p>
-          DevFest is an annual decentralized tech conference hosted by the Google Developer Groups (GDG) community. GDGs host these events around the globe. DevFest 2022 marks the 11th year of DevFest.
-      <br />
+            DevFest is an annual decentralized tech conference hosted by the Google Developer Groups (GDG) community. GDGs host these events around the globe. DevFest 2022 marks the 11th year of DevFest.
+            <br />
 
-          DevFest Patna is an initiative of GDG Patna bringing in the
-          1st edition
-          🤩 to people of Bihar with knowledge exchange,learning and networking opportunities!!
+            DevFest Patna is an initiative of GDG Patna bringing in the
+            1st edition
+            🤩 to people of Bihar with knowledge exchange,learning and networking opportunities!!
           </p>
         </div>
       </div>
-      
 
-      <Perks/>
+
+      <Perks />
     </div>
   );
 }
