@@ -1,3 +1,4 @@
+import { Blue, Red, Yellow } from "../../assets/img/Frames";
 import {
   HarshAskhit,
   AnkitSharma,
@@ -8,6 +9,7 @@ const SpeakersList = [
     name: "Anubhav Sharma",
     bio: "Co-Founder of Dynopii",
     image: AnubhavSharma,
+    frame: Blue,
     linkedinUrl: "https://www.linkedin.com/in/xprilion/",
     twitterUrl: "https://twitter.com/xprilion",
   },
@@ -15,6 +17,7 @@ const SpeakersList = [
     name: "Harsh Akshit",
     bio: "Cloud & Security Evangelist",
     image: HarshAskhit,
+    frame: Red,
     linkedinUrl: "https://www.linkedin.com/in/harshakshit/",
     twitterUrl: "https://mobile.twitter.com/explorash",
   },
@@ -22,6 +25,7 @@ const SpeakersList = [
     name: "Ankit Sharma",
     bio: "GDE for Angular",
     image: AnkitSharma,
+    frame: Yellow,
     linkedinUrl: "https://www.linkedin.com/in/harshakshit/",
     twitterUrl: "https://twitter.com/ankitsharma_007",
   },
