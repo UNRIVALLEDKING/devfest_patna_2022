@@ -8,7 +8,7 @@ export default function TeamCard({ data, title }) {
     <>
       <h2 className="text-4xl text-start pl-4 mt-4">{title}</h2>
       <div className="flex items-center w-screen mt-7">
-        <div className="container px-8 flex flex-wrap justify-start ml-auto mr-auto gap-8 items-start">
+        <div className="container px-8 flex flex-wrap justify-center ml-auto mr-auto gap-8 items-start">
           {data.map((item, id) => (
             <div
               key={id}
