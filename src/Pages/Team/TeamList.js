@@ -74,7 +74,7 @@ const TechTeam = [
     frame: Red,
     image: Srijan,
     linkedin: "https://www.linkedin.com/in/srijan-shovit-6b3b131ba/",
-    github: "https://www.linkedin.com/in/srijan-shovit-6b3b131ba/",
+    github: "https://github.com/SrijanShovit",
     twitter: "https://twitter.com/ShovitSrijan",
   },
 ];
