@@ -44,20 +44,32 @@ export default function Team() {
                 ) : (
                   <></>
                 )}
-                <a href={item.linkedin} target="_blank" rel="noreferrer">
-                  <img
-                    src={linkedin}
-                    alt="linkedin"
-                    className="w-6 hover:-translate-y-1 transition-all ease-in-out"
-                  />
-                </a>
-                <a href={item.twitter} target="_blank" rel="noreferrer">
-                  <img
-                    src={twitter}
-                    alt="twitter"
-                    className="w-6 hover:-translate-y-1 transition-all ease-in-out"
-                  />
-                </a>
+                {item.linkedin ? (
+                  <>
+                    <a href={item.linkedin} target="_blank" rel="noreferrer">
+                      <img
+                        src={linkedin}
+                        alt="linkedin"
+                        className="w-6 hover:-translate-y-1 transition-all ease-in-out"
+                      />
+                    </a>
+                  </>
+                ) : (
+                  <></>
+                )}
+                {item.twitter ? (
+                  <>
+                    <a href={item.twitter} target="_blank" rel="noreferrer">
+                      <img
+                        src={twitter}
+                        alt="twitter"
+                        className="w-6 hover:-translate-y-1 transition-all ease-in-out"
+                      />
+                    </a>
+                  </>
+                ) : (
+                  <></>
+                )}
               </div>
             </div>
           ))}

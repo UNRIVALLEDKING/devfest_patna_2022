@@ -11,6 +11,7 @@ import {
   Pankaj,
   Priyanshu,
   Shekhar,
+  Srijan,
 } from "../../assets/img/team";
 
 export const LeadList = [
@@ -66,6 +67,15 @@ const TechTeam = [
     linkedin: "https://www.linkedin.com/in/pankaj-shrivastava-1614b818b/",
     github: "https://github.com/shrivastava12",
     twitter: "https://twitter.com/shrivastava_101",
+  },
+  {
+    name: "Srijan Shovit",
+    desc: "Tech Team",
+    frame: Red,
+    image: Srijan,
+    linkedin: "https://www.linkedin.com/in/srijan-shovit-6b3b131ba/",
+    github: "https://www.linkedin.com/in/srijan-shovit-6b3b131ba/",
+    twitter: "https://twitter.com/ShovitSrijan",
   },
 ];
 const OperationTeam = [
