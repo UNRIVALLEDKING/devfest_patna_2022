@@ -27,7 +27,9 @@ export default function Home() {
             <img src={GDG} alt="Google Developer Groups Patna" />
           </div>
           <div>
-            <h1 className="text-xl lg:text-3xl">Google Developer Groups</h1>
+            <h1 className="text-xl lg:text-3xl whitespace-nowrap">
+              Google Developer Groups
+            </h1>
             <p className="text-[18px] lg:text-2xl text-start">Patna</p>
           </div>
         </div>
