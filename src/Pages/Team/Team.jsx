@@ -14,7 +14,7 @@ export default function Team() {
           {LeadList.map((item, id) => (
             <div
               key={id}
-              className="flex flex-col justify-center items-center w-1/3 sm:w-2/5 md:w-3/5  lg:w-2/12"
+              className="flex flex-col justify-center items-center w-[75%] sm:w-2/5 md:w-3/5  lg:w-2/12"
             >
               <div
                 className="relative flex justify-center items-center !bg-cover !bg-no-repeat w-full !z-[40] rounded-full"

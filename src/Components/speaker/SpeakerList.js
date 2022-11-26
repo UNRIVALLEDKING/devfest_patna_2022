@@ -6,10 +6,10 @@ import {
 } from "../../assets/img/speaker";
 const SpeakersList = [
   {
-    name: "Anubhav Sharma",
+    name: "Anubhav Singh",
     bio: "Co-Founder of Dynopii",
     image: AnubhavSharma,
-    frame: Blue,
+    frame: Red,
     linkedinUrl: "https://www.linkedin.com/in/xprilion/",
     twitterUrl: "https://twitter.com/xprilion",
   },
@@ -17,7 +17,7 @@ const SpeakersList = [
     name: "Harsh Akshit",
     bio: "Cloud & Security Evangelist",
     image: HarshAskhit,
-    frame: Red,
+    frame: Blue,
     linkedinUrl: "https://www.linkedin.com/in/harshakshit/",
     twitterUrl: "https://mobile.twitter.com/explorash",
   },
@@ -26,7 +26,7 @@ const SpeakersList = [
     bio: "GDE for Angular",
     image: AnkitSharma,
     frame: Yellow,
-    linkedinUrl: "https://www.linkedin.com/in/harshakshit/",
+    linkedinUrl: "https://www.linkedin.com/in/ankitsharma-007/",
     twitterUrl: "https://twitter.com/ankitsharma_007",
   },
 ];

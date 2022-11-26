@@ -6,6 +6,9 @@ import Shekhar from "./Shekhar.jpeg";
 import Kanishk from "./Kanishk.jpg";
 import Hritik from "./Hritik.jpeg";
 import Priyanshu from "./Priyanshu.jpeg";
+import Pankaj from "./Pankaj.jpeg";
+import Anushka from "./Anushka.jpg";
+import Avinash from "./Avinash.jpg";
 
 export {
   Aditya,
@@ -16,4 +19,7 @@ export {
   Kanishk,
   Hritik,
   Priyanshu,
+  Pankaj,
+  Anushka,
+  Avinash,
 };

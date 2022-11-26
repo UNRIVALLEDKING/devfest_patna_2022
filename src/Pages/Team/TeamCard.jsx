@@ -2,6 +2,7 @@ import React from "react";
 import git from "../../assets/Icons/git.svg";
 import twitter from "../../assets/Icons/twitter.svg";
 import linkedin from "../../assets/Icons/linkedin.svg";
+import website from "../../assets/Icons/website.svg";
 
 export default function TeamCard({ data, title }) {
   return (
@@ -12,7 +13,7 @@ export default function TeamCard({ data, title }) {
           {data.map((item, id) => (
             <div
               key={id}
-              className="flex flex-col justify-center items-center w-1/3 sm:w-2/5 md:w-3/5  lg:w-2/12"
+              className="flex flex-col justify-center items-center w-[75%] sm:w-2/5 md:w-3/5  lg:w-2/12"
             >
               <div
                 className="relative flex justify-center items-center !bg-contain w-full !z-[40] rounded-full"
@@ -44,6 +45,17 @@ export default function TeamCard({ data, title }) {
                 ) : (
                   <></>
                 )}
+                {item.website ? (
+                  <a href={item.website} target="_blank" rel="noreferrer">
+                    <img
+                      src={website}
+                      alt="github"
+                      className="w-6 hover:-translate-y-1 transition-all ease-in-out"
+                    />
+                  </a>
+                ) : (
+                  <></>
+                )}
                 <a href={item.linkedin} target="_blank" rel="noreferrer">
                   <img
                     src={linkedin}
@@ -51,13 +63,19 @@ export default function TeamCard({ data, title }) {
                     className="w-6 hover:-translate-y-1 transition-all ease-in-out"
                   />
                 </a>
-                <a href={item.twitter} target="_blank" rel="noreferrer">
-                  <img
-                    src={twitter}
-                    alt="twitter"
-                    className="w-6 hover:-translate-y-1 transition-all ease-in-out"
-                  />
-                </a>
+                {item.twitter ? (
+                  <>
+                    <a href={item.twitter} target="_blank" rel="noreferrer">
+                      <img
+                        src={twitter}
+                        alt="twitter"
+                        className="w-6 hover:-translate-y-1 transition-all ease-in-out"
+                      />
+                    </a>
+                  </>
+                ) : (
+                  <></>
+                )}
               </div>
             </div>
           ))}

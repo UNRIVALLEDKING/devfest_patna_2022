@@ -1,11 +1,14 @@
-import { Green, Red, Yellow } from "../../assets/img/Frames";
+import { Blue, Green, Red, Yellow } from "../../assets/img/Frames";
 import {
   Aditya,
   AnuragVerma,
+  Anushka,
+  Avinash,
   BarkhaAgarwal,
   Hritik,
   Kanishk,
   Nisha,
+  Pankaj,
   Priyanshu,
   Shekhar,
 } from "../../assets/img/team";
@@ -22,7 +25,7 @@ export const LeadList = [
   {
     name: "Barkha Agarwal",
     desc: "Co-Organizer",
-    frame: Green,
+    frame: Blue,
     image: BarkhaAgarwal,
   },
 ];
@@ -41,7 +44,7 @@ const TechTeam = [
     name: "Aditya Kumar",
     desc: "Technical Co-Lead",
     image: Aditya,
-    frame: Green,
+    frame: Blue,
     linkedin: "https://www.linkedin.com/in/unrivalledking/",
     github: "https://github.com/UNRIVALLEDKING",
     twitter: "https://twitter.com/UNRIVALLED_KING",
@@ -54,6 +57,15 @@ const TechTeam = [
     linkedin: "https://www.linkedin.com/in/elite-kanishkraj-4011a720a/",
     github: "https://github.com/KANISHKRAJ900",
     twitter: "https://twitter.com/walkerrahil",
+  },
+  {
+    name: "Pankaj Shrivastava",
+    desc: "Tech Team",
+    frame: Green,
+    image: Pankaj,
+    linkedin: "https://www.linkedin.com/in/pankaj-shrivastava-1614b818b/",
+    github: "https://github.com/shrivastava12",
+    twitter: "https://twitter.com/shrivastava_101",
   },
 ];
 const OperationTeam = [
@@ -69,9 +81,25 @@ const OperationTeam = [
     name: "Priyanshu Sinha",
     desc: "Operation Co-Lead",
     image: Priyanshu,
-    frame: Green,
+    frame: Blue,
     linkedin: "https://www.linkedin.com/in/priyanshusinha03/",
     twitter: "https://twitter.com/priyanshu0312",
+  },
+  {
+    name: "Anushka Raj",
+    desc: "Operation Team",
+    image: Anushka,
+    frame: Yellow,
+    linkedin: "https://www.linkedin.com/in/anushka-raj/",
+    website: "https://anushkaraj.me/",
+    twitter: "https://twitter.com/AnushCodergirl",
+  },
+  {
+    name: "Avinash ",
+    desc: "Operation Team",
+    image: Avinash,
+    frame: Green,
+    linkedin: "https://www.linkedin.com/in/avinash-k-7201a9140/",
   },
 ];
 const DesignTeam = [
