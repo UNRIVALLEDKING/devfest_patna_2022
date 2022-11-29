@@ -31,7 +31,7 @@ const SpeakersList = [
     twitterUrl: "https://twitter.com/ankitsharma_007",
   },
   {
-    name: "Panjak Rai",
+    name: "Pankaj Rai",
     bio: "GDE Android & Firebase",
     image: PankajRai,
     frame: Green,
