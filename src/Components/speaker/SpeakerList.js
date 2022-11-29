@@ -1,8 +1,9 @@
-import { Blue, Red, Yellow } from "../../assets/img/Frames";
+import { Blue, Green, Red, Yellow } from "../../assets/img/Frames";
 import {
   HarshAskhit,
   AnkitSharma,
   AnubhavSharma,
+  PankajRai,
 } from "../../assets/img/speaker";
 const SpeakersList = [
   {
@@ -28,6 +29,14 @@ const SpeakersList = [
     frame: Yellow,
     linkedinUrl: "https://www.linkedin.com/in/ankitsharma-007/",
     twitterUrl: "https://twitter.com/ankitsharma_007",
+  },
+  {
+    name: "Panjak Rai",
+    bio: "GDE Android & Firebase",
+    image: PankajRai,
+    frame: Green,
+    linkedinUrl: "https://www.linkedin.com/in/pankajrai16/",
+    twitterUrl: "https://twitter.com/raipankaj7",
   },
 ];
 
