@@ -22,14 +22,14 @@ const SpeakersList = [
     linkedinUrl: "https://www.linkedin.com/in/harshakshit/",
     twitterUrl: "https://mobile.twitter.com/explorash",
   },
-  {
-    name: "Ankit Sharma",
-    bio: "GDE for Angular",
-    image: AnkitSharma,
-    frame: Yellow,
-    linkedinUrl: "https://www.linkedin.com/in/ankitsharma-007/",
-    twitterUrl: "https://twitter.com/ankitsharma_007",
-  },
+  // {
+  //   name: "Ankit Sharma",
+  //   bio: "GDE for Angular",
+  //   image: AnkitSharma,
+  //   frame: Yellow,
+  //   linkedinUrl: "https://www.linkedin.com/in/ankitsharma-007/",
+  //   twitterUrl: "https://twitter.com/ankitsharma_007",
+  // },
   {
     name: "Pankaj Rai",
     bio: "GDE Android & Firebase",
