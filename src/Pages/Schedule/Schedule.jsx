@@ -8,7 +8,7 @@ export default function Schedule({ schedule }) {
       <div className="flex flex-col lg:flex-row justify-evenly items-center">
         <h1 className="text-white mt-4">Agenda</h1>
       </div>
-
+      {/* 
       {Sechedule.map((item) => (
         <div
           key={item.id}
@@ -48,7 +48,9 @@ export default function Schedule({ schedule }) {
             </div>
           </div>
         </div>
-      ))}
+      ))} */}
+
+      <h2 className="text-center text-2xl mt-4">To be Updated</h2>
     </div>
   );
 }
