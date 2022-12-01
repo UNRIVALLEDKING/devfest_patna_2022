@@ -8,6 +8,7 @@ import {
   Hritik,
   Kanishk,
   Nisha,
+  Nitesh,
   Pankaj,
   Priyanshu,
   Shekhar,
@@ -120,6 +121,23 @@ const DesignTeam = [
     frame: Red,
     linkedin: "https://www.linkedin.com/in/hritikshiva/",
     twitter: "",
+  },
+  {
+    name: "Nitesh Kumar",
+    desc: "Design Team",
+    image: Nitesh,
+    frame: Blue,
+    linkedin: "https://www.linkedin.com/mwlite/in/niteshkumaryadav02",
+    github: "https://github.com/SteveNitesh",
+  },
+  {
+    name: "Aditya Kumar",
+    desc: "Design Team",
+    image: Nitesh,
+    frame: Yellow,
+    linkedin: "https://github.com/rootaditya",
+    website: "https://www.behance.net/igraphixstudio/",
+    github: "https://github.com/rootaditya",
   },
 ];
 
