@@ -48,11 +48,11 @@ export default function Home() {
           <h2>Bihar's most awaited developer conference</h2>
           <div className="flex items-center justify-center text-[14px] lg:text-2xl">
             <img src={Calender} alt="date" className="w-[30px] lg:w-[50px]" />
-            {/* <p>18th Dec 2022</p> */}
-            <p>TBA</p>
+            <p>18th Dec 2022</p>
+            {/* <p>TBA</p> */}
             <span className="w-[20px] aspect-square bg-white m-2 mx-4 rounded-xl"></span>
-            {/* <p>9 AM onwards</p> */}
-            <p>TBA</p>
+            <p>9 AM onwards</p>
+            {/* <p>TBA</p> */}
           </div>
           <div className="flex justify-center items-center text-[14px] lg:text-2xl">
             <img src={Map} alt="location" className="w-[30px] lg:w-[50px]" />
@@ -60,8 +60,8 @@ export default function Home() {
           </div>
           <a
             className="text-white"
-            // target="_blank"
-            // href="https://forms.gle/XDQkHB8hfjjvtR8u5"
+            target="_blank"
+            href="https://forms.gle/XDQkHB8hfjjvtR8u5"
           >
             <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
               Register Now

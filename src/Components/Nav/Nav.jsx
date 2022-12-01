@@ -54,9 +54,9 @@ export default function Nav() {
           ))}
           <li>
             <a
-              // href="https://forms.gle/XDQkHB8hfjjvtR8u5"
+              href="https://forms.gle/XDQkHB8hfjjvtR8u5"
               className={`min-w-full text-white whitespace-nowrap px-4 py-2 rounded-full cursor-pointer hover:bg-secondary`}
-              // target="_blank"
+              target="_blank"
               rel="norefferer"
             >
               Register Now
