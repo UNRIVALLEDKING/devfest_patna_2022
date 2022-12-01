@@ -5,6 +5,7 @@ import Loader from "./Components/Loader/Loader";
 import Schedule from "./Pages/Schedule/Schedule";
 import Nav from "./Components/Nav/Nav";
 import HomePage from "./HomePage";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,7 @@ function App() {
               <Route path="/agenda" element={<Schedule />} />
               <Route path="/" element={<HomePage />} />
             </Routes>
+            <Footer />
           </BrowserRouter>
         </>
       )}
