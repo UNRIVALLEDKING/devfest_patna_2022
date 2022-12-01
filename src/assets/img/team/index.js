@@ -11,6 +11,7 @@ import Anushka from "./AnushkaRaj.jpg";
 import Avinash from "./Avinash.jpg";
 import Srijan from "./Srijan.jpeg";
 import Nitesh from "./Nitesh.jpg";
+import AdityaDesign from "./AdityaDesign.jpeg";
 
 export {
   Aditya,
@@ -25,5 +26,6 @@ export {
   Anushka,
   Avinash,
   Nitesh,
+  AdityaDesign,
   Srijan,
 };

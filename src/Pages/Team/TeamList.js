@@ -1,6 +1,7 @@
 import { Blue, Green, Red, Yellow } from "../../assets/img/Frames";
 import {
   Aditya,
+  AdityaDesign,
   AnuragVerma,
   Anushka,
   Avinash,
@@ -133,7 +134,7 @@ const DesignTeam = [
   {
     name: "Aditya Kumar",
     desc: "Design Team",
-    image: Nitesh,
+    image: AdityaDesign,
     frame: Yellow,
     linkedin: "https://github.com/rootaditya",
     website: "https://www.behance.net/igraphixstudio/",
