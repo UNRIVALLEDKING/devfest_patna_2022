@@ -136,7 +136,7 @@ const DesignTeam = [
     desc: "Design Team",
     image: AdityaDesign,
     frame: Yellow,
-    linkedin: "https://github.com/rootaditya",
+    linkedin: "https://www.linkedin.com/in/adityagit/",
     website: "https://www.behance.net/igraphixstudio/",
     github: "https://github.com/rootaditya",
   },
