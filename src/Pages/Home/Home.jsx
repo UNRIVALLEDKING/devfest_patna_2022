@@ -58,11 +58,7 @@ export default function Home() {
             <img src={Map} alt="location" className="w-[30px] lg:w-[50px]" />
             <p>C.V. Raman Hall, NIT Patna</p>
           </div>
-          <a
-            className="text-white"
-            target="_blank"
-            href="https://forms.gle/XDQkHB8hfjjvtR8u5"
-          >
+          <a className="text-white" href="#register">
             <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] mr-3 hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
               Register Now
             </button>

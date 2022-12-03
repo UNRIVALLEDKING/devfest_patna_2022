@@ -1,4 +1,5 @@
 import React from "react";
+import Register from "./Components/Register/Register";
 import Faq from "./Pages/Faq/Faq";
 import Home from "./Pages/Home/Home";
 import Partners from "./Pages/Partners/Partners";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Speakers />
       <Partners />
       <Team />
+      <Register />
       <Faq />
     </>
   );

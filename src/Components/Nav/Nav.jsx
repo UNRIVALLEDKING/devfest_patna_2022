@@ -52,16 +52,6 @@ export default function Nav() {
               </Link>
             </li>
           ))}
-          <li>
-            <a
-              href="https://forms.gle/XDQkHB8hfjjvtR8u5"
-              className={`min-w-full text-white whitespace-nowrap px-4 py-2 rounded-full cursor-pointer hover:bg-secondary`}
-              target="_blank"
-              rel="norefferer"
-            >
-              Register Now
-            </a>
-          </li>
         </ul>
 
         {/* Responsive Nav for Mobiles */}
@@ -98,16 +88,6 @@ export default function Nav() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <a
-                  href="https://forms.gle/XDQkHB8hfjjvtR8u5"
-                  className={`min-w-full text-white whitespace-nowrap px-4 py-2 rounded-full hover:bg-secondary`}
-                  target="_blank"
-                  rel="norefferer"
-                >
-                  Register Now
-                </a>
-              </li>
             </ul>
           </div>
         </div>
