@@ -58,7 +58,7 @@ const TechTeam = [
     frame: Yellow,
     image: Kanishk,
     linkedin: "https://www.linkedin.com/in/elite-kanishkraj-4011a720a/",
-    github: "https://github.com/KANISHKRAJ900",
+    github: "https://github.com/elitekanishkraj",
     twitter: "https://twitter.com/walkerrahil",
   },
   {
