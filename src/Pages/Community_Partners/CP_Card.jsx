@@ -12,7 +12,7 @@ export default function CP_Card({ item }) {
         </div>
         <div>
           <h1 className="mt-3 text-3xl">{item.name}</h1>
-          <div className="flex justify-start content-center gap-2">
+          <div className="flex justify-center lg:justify-start content-center gap-2">
             <a target="_blank" href={item.url}>
               <img
                 src={website}

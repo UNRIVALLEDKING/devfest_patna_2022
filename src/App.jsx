@@ -9,7 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import CommunityPartners from "./Pages/Community_Partners/CommunityPartners";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
