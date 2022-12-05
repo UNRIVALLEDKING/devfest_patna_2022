@@ -19,10 +19,6 @@ export default function TeamCard({ data, title }) {
                 className="relative flex justify-center items-center !bg-contain w-full !z-[40] rounded-full"
                 style={{ background: `url(${item.image})` }}
               >
-                {/* <div className="absolute w-[104%] aspect-square bg-primary -z-10 rounded-full -translate-x-1 -translate-y-1 overflow-hidden"></div> */}
-                {/* <div
-                  className={`absolute w-[104%] aspect-square -z-[2] rounded-full overflow-hidden bg-[${item.frame}]`}
-                ></div> */}
                 <img
                   className="rounded-[100%] aspect-square w-[100%] items-center object-cover z-30"
                   src={item.frame}

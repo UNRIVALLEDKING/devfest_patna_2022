@@ -10,6 +10,8 @@ import GDSC_IIBMPatna from "./GDSC_IIBMPatna.jpg";
 import GDSCBCEPatna from "./GDSCBCEPatna.png";
 import GDSCSCE from "./GDSCSCE.png";
 import HackBeats from "./HackBeats.png";
+import MetaHorizon from "./MetaHorizon.jpg";
+import NITP from "./NITP.png";
 
 export {
   DevsDungeon,
@@ -24,4 +26,6 @@ export {
   GDSCBCEPatna,
   GDSCSCE,
   HackBeats,
+  MetaHorizon,
+  NITP,
 };
