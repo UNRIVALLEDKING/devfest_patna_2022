@@ -49,7 +49,7 @@ export default function TeamCard({ data, title }) {
                   <a href={item.website} target="_blank" rel="noreferrer">
                     <img
                       src={website}
-                      alt="github"
+                      alt="website"
                       className="w-6 hover:-translate-y-1 transition-all ease-in-out"
                     />
                   </a>

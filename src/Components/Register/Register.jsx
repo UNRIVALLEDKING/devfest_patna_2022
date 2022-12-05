@@ -10,7 +10,7 @@ export default function Register() {
       <iframe
         id="ts-iframe"
         src="https://www.townscript.com/v2/widget/devfest-patna-2022-302030/booking"
-        frameborder="0"
+        frameBorder="0"
         height="600"
         width="80%"
       ></iframe>

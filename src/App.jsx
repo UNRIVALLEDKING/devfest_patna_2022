@@ -6,9 +6,10 @@ import Schedule from "./Pages/Schedule/Schedule";
 import Nav from "./Components/Nav/Nav";
 import HomePage from "./HomePage";
 import Footer from "./Components/Footer/Footer";
+import CommunityPartners from "./Pages/Community_Partners/CommunityPartners";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
@@ -28,6 +29,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/agenda" element={<Schedule />} />
+              <Route path="/partners" element={<CommunityPartners />} />
               <Route path="/" element={<HomePage />} />
             </Routes>
             <Footer />

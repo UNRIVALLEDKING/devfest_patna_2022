@@ -12,8 +12,12 @@
       "url": "/#speakers"
     },
     {
+      "title": "Sponsors",
+      "url": "/#sponsors"
+    },
+    {
       "title": "Partners",
-      "url": "/#partners"
+      "url": "/partners"
     },
     {
       "title": "Agenda",
