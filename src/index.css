@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 a {
   font-weight: 500;
   color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 body {
