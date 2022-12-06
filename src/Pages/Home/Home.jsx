@@ -54,10 +54,16 @@ export default function Home() {
             <p>9 AM onwards</p>
             {/* <p>TBA</p> */}
           </div>
-          <div className="flex justify-center items-center text-[14px] lg:text-2xl">
+
+          <a
+            href="https://goo.gl/maps/YfNRv8if2RX164Uh6"
+            target="_blank"
+            className="flex justify-center items-center text-[14px] lg:text-2xl text-white"
+          >
             <img src={Map} alt="location" className="w-[30px] lg:w-[50px]" />
             <p>Sahu Jain Hall, Bihar Chamber of Commerce, Patna</p>
-          </div>
+          </a>
+
           <a className="text-white" href="#register">
             <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] mr-3 hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
               Register Now
