@@ -69,16 +69,10 @@ export default function Home() {
               Register Now
             </button>
           </a>
-          <a
-            className="text-white"
-            target="_blank"
-            title="Call For Presentation"
-            href="https://sessionize.com/devfest22patna/"
-          >
-            <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
-              CFP
-            </button>
-          </a>
+
+          <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
+            CFP Closed
+          </button>
         </div>
       </div>
     </div>
