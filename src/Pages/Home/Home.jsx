@@ -48,7 +48,7 @@ export default function Home() {
           <h2>Bihar's most awaited developer conference</h2>
           <div className="flex items-center justify-center text-[14px] lg:text-2xl">
             <img src={Calender} alt="date" className="w-[30px] lg:w-[50px]" />
-            <p>18th Dec 2022</p>
+            <p>24th Dec 2022</p>
             {/* <p>TBA</p> */}
             <span className="w-[20px] aspect-square bg-white m-2 mx-4 rounded-xl"></span>
             <p>9 AM onwards</p>
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center text-[14px] lg:text-2xl">
             <img src={Map} alt="location" className="w-[30px] lg:w-[50px]" />
-            <p>C.V. Raman Hall, NIT Patna</p>
+            <p>Sahu Jain Hall, Bihar Chamber of Commerce, Patna</p>
           </div>
           <a className="text-white" href="#register">
             <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] mr-3 hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
