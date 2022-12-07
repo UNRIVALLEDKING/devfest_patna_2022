@@ -96,6 +96,9 @@ export const CommunityPartnersList = [
     name: "GDSC GEC Sheikhpura",
     logo: GDSC_GEC_Sheikhpura,
     url: "https://gdsc.community.dev/government-engineering-college-sheikhpura/",
+    instagram: "https://www.instagram.com/gdsc.gecsheikhpura/",
+    youTube: "https://youtube.com/@gdscgecsheikhpura6743",
+    linkedin: "https://www.linkedin.com/company/gdsc-gec-sheikhpura/",
   },
   {
     name: "GDSC SEC Sasaram",
