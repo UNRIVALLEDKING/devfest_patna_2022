@@ -75,6 +75,10 @@ export const CommunityPartnersList = [
   {
     name: "GDSC BCE Patna",
     logo: GDSCBCEPatna,
+    url: "https://gdsc.community.dev/bakhtiyarpur-college-of-engineering-patna/",
+    linkedin: "https://www.linkedin.com/company/gdsc-bce-patna/",
+    instagram: "https://www.instagram.com/gdscbcepatna/",
+    youtube: "https://www.youtube.com/@gdscbcepatna",
   },
   {
     name: "Entrepreneurship Club IIITBH",

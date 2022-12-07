@@ -2,7 +2,7 @@ import React from "react";
 import website from "../../assets/Icons/website.svg";
 import twitter from "../../assets/Icons/twitter.svg";
 import linkedin from "../../assets/Icons/linkedin.svg";
-import instagram from "../../assets/Icons/instagram.png";
+import { AiOutlineInstagram, AiOutlineYoutube } from "react-icons/ai";
 
 export default function CP_Card({ item }) {
   return (
@@ -22,7 +22,7 @@ export default function CP_Card({ item }) {
               <a target="_blank" href={item.url}>
                 <img
                   src={website}
-                  alt="community page"
+                  alt="Website"
                   className="w-6 hover:-translate-y-1 transition-all ease-in-out"
                 />
               </a>
@@ -33,7 +33,7 @@ export default function CP_Card({ item }) {
               <a target="_blank" href={item.linkedin}>
                 <img
                   src={linkedin}
-                  alt="community page"
+                  alt="LinkedIn"
                   className="w-6 hover:-translate-y-1 transition-all ease-in-out"
                 />
               </a>
@@ -44,7 +44,7 @@ export default function CP_Card({ item }) {
               <a target="_blank" href={item.twitter}>
                 <img
                   src={twitter}
-                  alt="community page"
+                  alt="Twitter"
                   className="w-6 hover:-translate-y-1 transition-all ease-in-out"
                 />
               </a>
@@ -53,10 +53,21 @@ export default function CP_Card({ item }) {
             )}
             {item.instagram ? (
               <a target="_blank" href={item.instagram}>
-                <img
-                  src={instagram}
-                  alt="Instagram"
-                  className="w-8 hover:-translate-y-1 transition-all ease-in-out"
+                <AiOutlineInstagram
+                  color="white"
+                  size={25}
+                  className="hover:-translate-y-1 transition-all ease-in-out"
+                />
+              </a>
+            ) : (
+              <></>
+            )}
+            {item.youtube ? (
+              <a target="_blank" href={item.youtube}>
+                <AiOutlineYoutube
+                  color="white"
+                  size={25}
+                  className="hover:-translate-y-1 transition-all ease-in-out"
                 />
               </a>
             ) : (
