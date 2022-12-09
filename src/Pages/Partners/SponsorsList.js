@@ -1,10 +1,19 @@
-import { googleDevelopers, JetBrains } from "../../assets/SponsorsLogo";
+import {
+  googleDevelopers,
+  JetBrains,
+  Teamology,
+} from "../../assets/SponsorsLogo";
 
 export const Sponsors = [
   {
     name: "Google Developers",
     logo: googleDevelopers,
     url: "https://developers.google.com/",
+  },
+  {
+    name: "Teamology",
+    logo: Teamology,
+    url: "https://theteamology.com/",
   },
   {
     name: "JetBrains",
