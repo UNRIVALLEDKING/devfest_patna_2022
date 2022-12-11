@@ -1,4 +1,5 @@
 import {
+  googleCrowdsource,
   googleDevelopers,
   JetBrains,
   Teamology,
@@ -19,5 +20,10 @@ export const Sponsors = [
     name: "JetBrains",
     logo: JetBrains,
     url: "https://www.jetbrains.com/",
+  },
+  {
+    name: "Crowdsource",
+    logo: googleCrowdsource,
+    url: "https://crowdsource.google.com/",
   },
 ];
