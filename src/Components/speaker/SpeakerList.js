@@ -18,7 +18,7 @@ const SpeakersList = [
   },
   {
     name: "Harsh Akshit",
-    bio: "Cloud & Security Evangelist",
+    bio: "Security Consultant @ Synopsys Inc",
     image: HarshAskhit,
     frame: Blue,
     linkedinUrl: "https://www.linkedin.com/in/harshakshit/",
