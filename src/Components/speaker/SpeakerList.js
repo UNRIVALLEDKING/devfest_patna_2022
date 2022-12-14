@@ -1,9 +1,11 @@
 import { Blue, Green, Red, Yellow } from "../../assets/img/Frames";
 import {
   HarshAskhit,
-  AnkitSharma,
   AnubhavSharma,
   PankajRai,
+  AditLal,
+  InshaRamin,
+  MayankGupta,
 } from "../../assets/img/speaker";
 const SpeakersList = [
   {
@@ -22,14 +24,6 @@ const SpeakersList = [
     linkedinUrl: "https://www.linkedin.com/in/harshakshit/",
     twitterUrl: "https://mobile.twitter.com/explorash",
   },
-  // {
-  //   name: "Ankit Sharma",
-  //   bio: "GDE for Angular",
-  //   image: AnkitSharma,
-  //   frame: Yellow,
-  //   linkedinUrl: "https://www.linkedin.com/in/ankitsharma-007/",
-  //   twitterUrl: "https://twitter.com/ankitsharma_007",
-  // },
   {
     name: "Pankaj Rai",
     bio: "GDE Android & Firebase",
@@ -37,6 +31,30 @@ const SpeakersList = [
     frame: Green,
     linkedinUrl: "https://www.linkedin.com/in/pankajrai16/",
     twitterUrl: "https://twitter.com/raipankaj7",
+  },
+  {
+    name: "Adit Lal",
+    bio: "Individual Consultant",
+    image: AditLal,
+    frame: Yellow,
+    linkedinUrl: "https://www.linkedin.com/in/aditlal/",
+    twitterUrl: "https://twitter.com/aditlal",
+  },
+  {
+    name: "Insha Ramin",
+    bio: "Developer Advocate",
+    image: InshaRamin,
+    frame: Red,
+    linkedinUrl: "https://www.linkedin.com/in/insha-ramin-104065183/",
+    twitterUrl: "https://twitter.com/Insharamin",
+  },
+  {
+    name: "Mayank Gupta",
+    bio: "Software Developer",
+    image: MayankGupta,
+    frame: Blue,
+    linkedinUrl: "https://www.linkedin.com/in/mayankgbrc/",
+    twitterUrl: "https://twitter.com/Mayankgbrc",
   },
 ];
 
