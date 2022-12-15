@@ -6,6 +6,7 @@ import {
   AditLal,
   InshaRamin,
   MayankGupta,
+  RajanJha,
 } from "../../assets/img/speaker";
 const SpeakersList = [
   {
@@ -55,6 +56,13 @@ const SpeakersList = [
     frame: Blue,
     linkedinUrl: "https://www.linkedin.com/in/mayankgbrc/",
     twitterUrl: "https://twitter.com/Mayankgbrc",
+  },
+  {
+    name: "Rajan Jha",
+    bio: "Director Of Public Relations",
+    image: RajanJha,
+    frame: Green,
+    linkedinUrl: "https://www.linkedin.com/in/rajan-jha-266a04183/",
   },
 ];
 
