@@ -7,6 +7,7 @@ import {
   InshaRamin,
   MayankGupta,
   RajanJha,
+  AyushShekhar,
 } from "../../assets/img/speaker";
 const SpeakersList = [
   {
@@ -63,6 +64,15 @@ const SpeakersList = [
     image: RajanJha,
     frame: Green,
     linkedinUrl: "https://www.linkedin.com/in/rajan-jha-266a04183/",
+    twitterUrl: "",
+  },
+  {
+    name: "Ayush Shekhar",
+    bio: "Engineering Manager",
+    image: AyushShekhar,
+    frame: Green,
+    linkedinUrl: "https://www.linkedin.com/in/ayushshekhar/",
+    twitterUrl: "https://twitter.com/ayushshekhar17",
   },
 ];
 
