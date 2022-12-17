@@ -64,7 +64,7 @@ const SpeakersList = [
     image: RajanJha,
     frame: Green,
     linkedinUrl: "https://www.linkedin.com/in/rajan-jha-266a04183/",
-    twitterUrl: "",
+    twitterUrl: " https://twitter.com/rancoder",
   },
   {
     name: "Ayush Shekhar",
