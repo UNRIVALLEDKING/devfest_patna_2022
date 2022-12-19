@@ -1,6 +1,5 @@
 import React from "react";
 import { SpeakerList } from "./SpeakerList";
-import git from "../../assets/Icons/git.svg";
 import linkedin from "../../assets/Icons/linkedin.svg";
 import twitter from "../../assets/Icons/twitter.svg";
 
