@@ -11,6 +11,7 @@ import {
   Nisha,
   Nitesh,
   Pankaj,
+  Piyush,
   Priyanshu,
   Shekhar,
   Srijan,
@@ -107,10 +108,18 @@ const OperationTeam = [
     twitter: "https://twitter.com/AnushCodergirl",
   },
   {
-    name: "Avinash ",
+    name: "Avinash",
     desc: "Operation Team",
     image: Avinash,
     frame: Green,
+    linkedin: "https://www.linkedin.com/in/avinash-k-7201a9140/",
+  },
+  {
+    name: "Piyush Kashyap",
+    desc: "Operation Team",
+    image: Piyush,
+    frame: Red,
+    twitter: "https://twitter.com/piyushkashyap_",
     linkedin: "https://www.linkedin.com/in/avinash-k-7201a9140/",
   },
 ];
