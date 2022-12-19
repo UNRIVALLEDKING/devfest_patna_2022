@@ -36,7 +36,7 @@ const SpeakersList = [
   },
   {
     name: "Adit Lal",
-    bio: "Individual Consultant",
+    bio: "GDE Android",
     image: AditLal,
     frame: Yellow,
     linkedinUrl: "https://www.linkedin.com/in/aditlal/",
@@ -68,7 +68,7 @@ const SpeakersList = [
   },
   {
     name: "Ayush Shekhar",
-    bio: "Engineering Manager",
+    bio: "GDE Dart & Flutter",
     image: AyushShekhar,
     frame: Green,
     linkedinUrl: "https://www.linkedin.com/in/ayushshekhar/",
