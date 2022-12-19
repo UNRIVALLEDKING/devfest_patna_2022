@@ -120,7 +120,7 @@ const OperationTeam = [
     image: Piyush,
     frame: Red,
     twitter: "https://twitter.com/piyushkashyap_",
-    linkedin: "https://www.linkedin.com/in/avinash-k-7201a9140/",
+    linkedin: "http://www.linkedin.com/in/piyush-kashyap-583982201",
   },
 ];
 const DesignTeam = [
