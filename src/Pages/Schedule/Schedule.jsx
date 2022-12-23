@@ -49,6 +49,8 @@ export default function Schedule({ schedule }) {
           </div>
         </div>
       ))}
+
+      <h2 className="text-center text-2xl mt-4"></h2>
     </div>
   );
 }
