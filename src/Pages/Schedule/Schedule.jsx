@@ -8,11 +8,11 @@ export default function Schedule({ schedule }) {
       <div className="flex flex-col lg:flex-row justify-evenly items-center">
         <h1 className="text-white mt-4">Agenda</h1>
       </div>
-      {/* 
+      
       {Sechedule.map((item) => (
         <div
           key={item.id}
-          className="grid mx-10 grid-cols-12 mt-3 px-0 lg:px-10 xl:px-40"
+          className="grid mx-5 grid-cols-12 mt-3 px-0 lg:px-10 xl:px-40"
         >
           <div className="col-span-2 my-3 items-center  py-5 pr-5 lg:pr-0 text-center">
             {item.started}
@@ -43,12 +43,12 @@ export default function Schedule({ schedule }) {
               </div>
               <div>
                 <h3 className="lg:text-2xl">{item.title} </h3>
-                <p className="text-sm">{item.finished} </p>
+                <p className="text-sm text-gray-500">{item.finished} </p>
               </div>
             </div>
           </div>
         </div>
-      ))} */}
+      ))}
 
       <h2 className="text-center text-2xl mt-4">To be Updated</h2>
     </div>
