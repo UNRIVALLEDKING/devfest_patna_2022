@@ -29,6 +29,11 @@ export const Sechedule = [
     finished: "Working on Graph Database using Neo4j within a Python Application",
   },
   {
+    title: "Pankaj Rai",
+    started: "12:35 - 13:05",
+    finished: "MVVM Architecture with Jetpack Compose",
+  },
+  {
     title: "Lunch & Stall visit ",
     started: " 13:05 - 14:15",
     // finished: "1:45",
