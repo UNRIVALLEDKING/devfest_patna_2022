@@ -15,7 +15,7 @@ export default function HomePage() {
       <Speakers />
       <SponsorsPage />
       <Team />
-      <Register />
+      {/* <Register /> */}
       <Faq />
     </>
   );

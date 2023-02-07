@@ -1,6 +1,6 @@
 import React from "react";
 import "./whydevfest.css";
-import dvbaroda from "../../assets/dvbaroda.jpg";
+import devfestPatna from "../../assets/DevFestGDGPatna.jpg";
 import Perks from "./Perks";
 
 export default function WhyDevFest() {
@@ -13,8 +13,8 @@ export default function WhyDevFest() {
       </div>
 
       <div className="md:flex p-3">
-        <div className="flex justify-center p-3 my-4 mx-2">
-          <img src={dvbaroda} alt="" className="rounded object-cover" />
+        <div className="flex md:w-2/3 justify-center p-3 my-4 mx-2">
+          <img src={devfestPatna} alt="" className="rounded object-cover" />
         </div>
         <div className="flex place-items-center justify-center p-3 my-4  mx-2 text-lg">
           <p>
