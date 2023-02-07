@@ -64,15 +64,15 @@ export default function Home() {
             <p>Sahu Jain Hall, Bihar Chamber of Commerce, Patna</p>
           </a>
 
-          <a className="text-white" href="#register">
+          <a className="text-white" href="https://gdgpatna.com/gallery">
             <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] mr-3 hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
-              Register Now
+              View Pics
             </button>
           </a>
 
-          <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
+          {/* <button className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(255,255,255,0.5)] hover:text-black transition-all ease-in-out duration-500 px-4 py-2 text-lg hover:translate-y-1">
             CFP Closed
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
